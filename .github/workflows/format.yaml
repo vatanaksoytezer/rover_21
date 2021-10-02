@@ -8,7 +8,8 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - master
+      - pr/precommit
 
 jobs:
   pre-commit:
