@@ -9,7 +9,7 @@ on:
   push:
     branches:
       - master
-      - pr/precommit
+      - test/pre-commit
 
 jobs:
   pre-commit:
